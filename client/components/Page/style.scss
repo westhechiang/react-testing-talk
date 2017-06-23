@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.subjectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subject {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 5px 0;
+  width: 400px;
+  border-radius: 10px;
+
+  &.eslint {
+    background: #463FD4;
+  }
+
+  &.jest {
+    background: #99424F;
+  }
+
+  &.enzyme {
+    background: #FF5A5F;
+  }
+}
+
+.label {
+  padding-right: 10px;
+  font-weight: 300;
+  font-size: 24px;
+  font-family: helvetica, arial, 'sans-serif';
+  color: #ffffff;
+}
+
+.definition {
+  font-weight: 300;
+  font-size: 24px;
+  font-family: helvetica, arial, 'sans-serif';
+  color: #ffffff;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 18px;
+  max-width: 425px;
+  margin-top: 10px;
+  font-family: helvetica, arial, 'sans-serif';
+}

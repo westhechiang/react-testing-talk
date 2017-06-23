@@ -1,15 +1,15 @@
 import React from 'react';
 import Button from './components/Button';
+import Page from './components/Page';
 import s from './style.scss';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      header: 'Write better React/Javascript with ESLint, Jest, and Enzyme',
+      header: 'Write better React and Javascript code with ESLint, Jest, and Enzyme',
       subHeader: 'Wesley Chiang',
       clicked: false,
-      message: 'Lorem dicta repellendus error quaerat voluptates? Autem incidunt eius sequi consectetur animi odit corrupti Debitis repudiandae praesentium et tempore voluptatum ducimus quae! Minima ipsum dolor ab cumque unde Quaerat deleniti.',
     };
 
     this.handleClick = this.handleClick.bind(this);
@@ -32,9 +32,7 @@ class App extends React.Component {
         <div className={s.section}>
           {
             this.state.clicked &&
-            <div className={s.messageContainer}>
-              { this.state.message }
-            </div>
+            <Page />
           }
         </div>
       </div>

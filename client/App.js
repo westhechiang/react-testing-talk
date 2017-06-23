@@ -6,7 +6,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      header: 'Testing React with Jest, Enzyme, Chai, and Sinon',
+      header: 'Write better React/Javascript with ESLint, Jest, and Enzyme',
       subHeader: 'Wesley Chiang',
       clicked: false,
       message: 'Lorem dicta repellendus error quaerat voluptates? Autem incidunt eius sequi consectetur animi odit corrupti Debitis repudiandae praesentium et tempore voluptatum ducimus quae! Minima ipsum dolor ab cumque unde Quaerat deleniti.',

@@ -1,10 +1,6 @@
 import React from 'react';
-import chai from 'chai';
-import chaiEnzyme from 'chai-enzyme';
 import { shallow } from 'enzyme';
 import Button from '../';
-
-chai.use(chaiEnzyme());
 
 let wrapper;
 const props = {

@@ -36,8 +36,8 @@ class Page extends React.Component {
       <div className={s.container}>
         {
           this.state.subjects.map(subject => (
-            <div className={s.subjectContainer}>
-              <div className={subject.style} key={subject.id}>
+            <div className={s.subjectContainer} key={subject.id}>
+              <div className={subject.style}>
                 <div className={s.label}>
                   { subject.label }:
                 </div>
